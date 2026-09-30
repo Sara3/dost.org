@@ -1,0 +1,60 @@
+[
+  {
+    "id": "sara-daqiq",
+    "name": "Sara Daqiq",
+    "role": "Executive Director",
+    "image": "api/headshots/sara.png",
+    "width": 1024,
+    "height": 1024,
+    "linkedin": "https://www.linkedin.com/in/saradaqiq",
+    "paragraphs": [
+      "Sara Daqiq brings a background in teaching, software engineering and technical leadership to her role as Dost’s Executive Director. Her experience spans privacy technology, API platforms and curriculum development.",
+      "She has held software architecture and senior engineering roles, with experience at Uber, Okta and Harvard Extension School. Her work combines building technology with making technical subjects accessible to learners.",
+      "At Dost, that combination of education and technology informs a commitment to women’s learning and support for families in Afghanistan."
+    ],
+    "sourceNote": "Adapted from the original Dost biography at commit 1be8975. Public LinkedIn profile reviewed September 30, 2026; some employment details are not exposed in the public view. Current employer and tenure are not asserted."
+  },
+  {
+    "id": "ahmad-zia-arman",
+    "anchor": "country-coordinator",
+    "name": "Ahmad Zia Arman",
+    "role": "Country Coordinator · Afghanistan",
+    "image": "assets/ahmad-zia-arman-headshot.png",
+    "width": 1122,
+    "height": 1402,
+    "paragraphs": [
+      "Ahmad Zia Arman coordinates Dost’s work in Afghanistan. He receives donated funds sent for local assistance, coordinates their distribution to people in need, and reports back to the organization on how support is delivered.",
+      "His role connects local distribution with Dost’s organizing team, keeping the receipt of funds, delivery of assistance and reporting connected."
+    ],
+    "responsibilities": [
+      [
+        "Receiving funds",
+        "Receives donated funds sent to Afghanistan for local assistance."
+      ],
+      [
+        "Coordinating distribution",
+        "Coordinates delivery of support to people in need."
+      ],
+      [
+        "Reporting back",
+        "Provides updates to Dost on the distribution of assistance."
+      ]
+    ],
+    "sourceNote": "Full name, country role and responsibilities supplied directly by the organization owner. No earlier education, employment or personal biography has been supplied."
+  },
+  {
+    "id": "shakiba-daqiq",
+    "name": "Shakiba Daqiq",
+    "role": "Chief Technology Officer",
+    "image": "api/headshots/shakiba.jpg",
+    "width": 600,
+    "height": 600,
+    "linkedin": "https://www.linkedin.com/in/shakibadaqiq",
+    "paragraphs": [
+      "Shakiba Daqiq brings experience in programming, teaching and community education to her role as Dost’s Chief Technology Officer.",
+      "Her academic background includes computer science at Wellesley College and coursework at MIT. During her studies, she taught programming to students in Afghanistan and worked with local coordinators on classes and the distribution of funds.",
+      "As a founding engineer of Afghan Girls Build, she helped establish a programming boot camp that supported students in building projects and pursuing internships. Her work also includes mentoring aspiring technologists."
+    ],
+    "sourceNote": "Adapted from the original Dost biography at commit 1be8975. Public LinkedIn profile reviewed September 30, 2026, confirming Wellesley College and Afghan Girls Build. MIT coursework is described in the original biography; no MIT degree is claimed."
+  }
+]

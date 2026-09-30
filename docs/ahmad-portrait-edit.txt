@@ -1,0 +1,14 @@
+Ahmad Zia Arman — portrait edit
+
+Method: built-in imagegen image edit.
+Source: user-provided zia.jpg.
+Final asset: assets/ahmad-zia-arman-headshot.png
+
+Final prompt:
+Use case: identity-preserve.
+Asset type: professional nonprofit team headshot for the Dost website.
+Input image: /Users/sara/Desktop/zia.jpg is the edit target, showing Ahmad Zia Arman.
+Primary request: replace the distracting dark room, visible wiring and window frame with a clean, softly lit warm light gray studio backdrop. Make this an authentic professional head-and-shoulders portrait with a centered, upright composition and comfortable space around his hair and shoulders; use a portrait 4:5 frame.
+Lighting: soft, natural, balanced studio light, realistic skin texture, modest exposure and white-balance correction. Subtle background depth, understated and credible.
+Preserve exactly: this person's identity, recognizable facial structure, age, skin tone, hair, facial hair, eye shape, expression, and original white embroidered shirt and dark waistcoat. Keep his existing pose and proportions. Do not beautify, reshape, smooth away skin texture, add a smile, add a suit or tie, or change ethnicity.
+Change only the backdrop, photographic lighting and framing. No objects, logos, flags, text or watermarks. Photorealistic photograph, not illustration.
