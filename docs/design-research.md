@@ -170,3 +170,8 @@ Biography sources reviewed September 30, 2026: the original Dost website at Git 
 | Report carousel copy was hard-coded | Featured cards and timeline use the same report records, including imported report PDFs | Adding the 2024 document updates its availability everywhere. |
 
 The importer is local and does not publish automatically. Files are grouped by the owner's year folder rather than guessed from image contents. It preserves originals, corrects photo orientation, avoids upscaling and removes EXIF metadata from optimized images. Videos retain their aspect ratio and receive a native player and poster. Source PDFs are copied unchanged. Biography dialogs and matching team cards remain in place.
+
+
+## Final homepage order
+
+At the owner’s request, the photo and video gallery now appears directly below the introduction, before the annual reports. The report timeline and carousel remain together immediately afterward, with the reporting-history link retained in the introduction and navigation.

@@ -76,7 +76,7 @@ Ahmad Zia Arman is included in the team section with the responsibilities provid
 
 The introduction identifies Dost as a grassroots organization committed to women’s education and basic needs, following the owner’s description. The hero and first gallery image come from the existing teaching archive. They are not assigned an unverified year, course subject or current program status. A blanket donation-allocation percentage is awaiting clarification because the 2025 report includes costs deducted from donations.
 
-The 2025/2024 annual-record carousel and a visible 2018–2026 archive timeline appear immediately after the homepage introduction, followed by the photo gallery. The timeline distinguishes reports, a fundraising update, missing records and the current appeal; it does not claim nine published distribution reports. The 2024 card is explicitly marked as awaiting its report. The team currently presents Sara Daqiq, Shakiba Daqiq and Ahmad Zia Arman.
+The photo and video gallery appears immediately after the homepage introduction, followed by the 2025/2024 annual-record carousel and a visible 2018–2026 archive timeline. The timeline distinguishes reports, a fundraising update, missing records and the current appeal; it does not claim nine published distribution reports. The 2024 card is explicitly marked as awaiting its report. The team currently presents Sara Daqiq, Shakiba Daqiq and Ahmad Zia Arman.
 
 
 ## Team biographies
