@@ -13,6 +13,8 @@ The downloadable website includes optimized media and the updater, with empty ye
 ## Organization
 
 - `index.html` — homepage, work, community, and team.
+- `donate.html` — one-time and recurring giving through the embedded Givebutter form.
+- `content/donate.html` — editable donation-page introduction, photo and reporting information.
 - `reports/` — annual archive and one page per year, 2018–2026.
 - `content/reports.json` — editable report titles, summaries, amounts, sources, and record status.
 - `content/media.json` — manually curated original gallery items. New year-folder media is added automatically from `content/media-generated.json`; do not edit that generated file. A null year displays an explicit unconfirmed-date label.
@@ -88,3 +90,10 @@ The photo and video gallery appears immediately after the homepage introduction,
 ## Team biographies
 
 `content/team.json` is the source for all three matching team cards, biography dialogs and standalone pages in `team/`. Clicking a card opens its biography; Escape or Close returns focus to the card. Normal profile-page links work without JavaScript and in the laptop download. Sara’s and Shakiba’s biographies were recovered from the original repository and edited for clarity; the original wording is preserved in `docs/original-team-biographies.txt`. Their public LinkedIn profiles are linked from the biographies. Ahmad’s profile uses the role and responsibilities supplied by the owner; additional career or education details have not been supplied.
+
+
+## Donation widget
+
+The dedicated donation page embeds Givebutter widget `L3xbQ8` once and loads the owner-supplied installation script only on that page. The account ID is a public widget identifier, not an API secret. Navigation and giving links lead to this local donation page; dated report sources continue to reference their original fundraising campaigns. A direct link to `https://givebutter.com/dostforgood` remains available if the embed cannot load.
+
+Publish the campaign in Givebutter and enable the intended one-time/monthly frequencies before publishing this integration. Amounts, recurring settings, branding, optional tips and payment methods are controlled in Givebutter. The website does not create or charge a recurring plan. Givebutter must separately register `dostforgood.org` for embedded Apple Pay to appear. Its widget needs an internet connection; offline archives still work without it.

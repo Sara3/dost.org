@@ -209,3 +209,16 @@ The owner subsequently confirmed that the 2024 campaign was organized privately,
 ### 2026 distribution status
 
 The owner confirmed that funds were collected during Ramadan 2026 and distribution is in progress. The annual archive and homepage timeline now label 2026 accordingly. This status update does not present distribution as complete or disclose a current fundraising total.
+
+
+### Dedicated giving page
+
+The owner supplied widget `L3xbQ8` and the account-specific Givebutter installation script. One widget is placed on a dedicated page, alongside the real food-distribution photograph, purpose of the gift, local coordination and a link to annual reporting. Donation navigation leads to this page; historical campaign sources retain their dated URLs. The external script loads only on the donation page, and the privacy text describes Givebutter’s role. A direct campaign link remains available for browsers that cannot display the widget.
+
+| Before | After | Why |
+| --- | --- | --- |
+| General giving links led to the 2026 Ramadan campaign | A dedicated page for one-time and recurring support | Separates ongoing giving from a dated campaign record. |
+| An external checkout had no adjacent reporting context | Original distribution photo, yearly updates and contact address beside the widget | Keeps the purpose and accountability visible while someone considers giving. |
+| Duplicate widget markup supplied | One centered widget, with a flexible-height container | Avoids duplicate donation forms and lets checkout steps resize naturally. |
+
+Installation follows the official [widget documentation](https://docs.givebutter.com/widgets/getting-started) and [embed guide](https://help.givebutter.com/en/articles/6464859-how-to-use-givebutter-widgets-on-your-website). The campaign must be published before the widget can operate. No donation is submitted during verification.
