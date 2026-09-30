@@ -30,7 +30,9 @@ To preview through a local web address, run `python3 -m http.server 4173 --bind 
 
 All annual numbers link to the source report. The legal 501(c)(3) description comes from the organization owner and the existing site; it has not been independently verified against an IRS record. Sara Daqiq and Shakiba Daqiq’s names and roles are retained from the repository. Gulafroz Dailey’s profile was removed at the owner’s request. Ahmad Zia Arman’s name and Country Coordinator role in Afghanistan were supplied by the owner, including responsibility for receiving donated funds, distribution and reporting back. Photographs are from the existing repository and are not assigned an unverified year.
 
-The available public record covers 2018, 2019, 2020, 2021, and 2025. The first report was published in January 2019 but concerns 2018; the 2025 report was published in February 2026. The 2021 appeal is a plan, not a completed outcome. The 2025 report explicitly says that some other years were reported privately. 2022–2024 entries are marked as records to add. No missing totals, founding date, EIN, or public email address has been invented.
+The archive includes distribution reports for 2018, 2019, 2020, 2021, 2022 and 2025. Owner-supplied Facebook records dated May 28, 2021 and April 1, 2022 document assistance for 80 and 110 families respectively. The 2021 follow-up supersedes the earlier 60-family target as the reported outcome. The 2023 Zeffy page documents a project plan, not final distribution results. A retrospective 2024 update, supplied by Dost, records a private campaign funded directly by friends and family; no public annual report was published then. The 2026 update confirms funds were collected during Ramadan and distribution is in progress; a final distribution account is still to add. No missing annual totals, founding date or EIN has been invented. The owner confirmed support@dostforgood.org as the public contact address.
+
+`content/reports.json` supports narrative sections, lists, budget tables, multiple source links and expandable source screenshots. Screenshot evidence is preserved unchanged in `assets/records/YEAR/` and included in the offline report archive. The 2018 Facebook appeal and the 2020 GoFundMe campaign provide additional historical context. `content/programs.json` generates the Afghan Girls Build education-project page, based on the original program website and public Facebook page; it does not announce current enrollment.
 
 The old “since 2010,” “over 50,000 lives,” and “100% direct donations” claims were removed because they were not supported by the supplied reports. The 2025 expenses are shown explicitly. Historical snapshots are not presented as live 2026 fundraising numbers. Current campaign totals and supporter counts are omitted at the owner’s request. Earlier financial details remain in their dated reports; the 2026 distribution account is still outstanding.
 
@@ -40,18 +42,22 @@ Original sources:
 - https://sadaqiq0.medium.com/dear-friends-and-family-5a08e8f1f98f
 - https://sadaqiq0.medium.com/eid-gift-2021-7f90825af13f
 - https://sadaqiq0.medium.com/eid-gift-2025-5b5ec5480628
+- https://www.zeffy.com/en-US/fundraising/0fe4cdad-3011-4ddf-8d08-f602f7d797f9 (2023 project plan)
+- https://www.gofundme.com/f/aa42a-eid-gift (2020 campaign)
+- https://advanceweb-1fe40.firebaseapp.com/ (Afghan Girls Build)
+- https://www.facebook.com/people/Afghan-Girls-Build/100064091859169/
 - https://givebutter.com/dost2026
 - https://partiful.com/e/FpdCN9VsM3NM3NyAMmSJ (March 14, 2025)
 - https://partiful.com/e/56K53FUVIIo8VudnjrxN (March 14, 2026)
 
 ## Before publishing
 
-1. Confirm the legal name, EIN, public contact email, and legal documents you want public. Add these to the footer and contact page.
+1. Confirm the legal name, EIN and legal documents you want public. Add these to the footer and contact page.
 2. Confirm current team roles and photograph permissions.
-3. Add the missing 2022–2024 records, and any earlier years. Keep donation amounts, expenses, money transferred, final distributions, and family counts separate.
-4. Confirm the existing Formspree endpoint (`xyzkeozv`) delivers to the right inbox. This redesign preserves the original endpoint. No test message has been sent, and delivery has not been verified.
+3. Add the 2023 completion update and any earlier records. The 2024 entry is an owner-supplied retrospective update. Keep donation amounts, expenses, money transferred, final distributions, and family counts separate.
+4. The contact page and all footers link directly to `support@dostforgood.org`, using the owner’s existing catch-all routing. The unverified Formspree form has been removed. No test message has been sent; mail routing is managed outside this repository.
 5. Confirm the preferred domain. Existing redirects refer to `wearedost.org`, while the requested domain is `dostforgood.org`; the donation campaign also links to the older domain. Do not change DNS or redirects until the intended hosting setup is confirmed.
-6. Confirm the 2026 distribution status and donation campaign destination.
+6. Add the final 2026 distribution report once distribution is complete. The current status is owner-confirmed: funds collected during Ramadan, distribution in progress.
 
 Updating the repository does not itself confirm a production deployment. Preview locally and review the items above before publishing the site. The previous design remains available in Git history.
 
@@ -76,7 +82,7 @@ Ahmad Zia Arman is included in the team section with the responsibilities provid
 
 The introduction identifies Dost as a grassroots organization committed to women’s education and basic needs, following the owner’s description. The hero and first gallery image come from the existing teaching archive. They are not assigned an unverified year, course subject or current program status. A blanket donation-allocation percentage is awaiting clarification because the 2025 report includes costs deducted from donations.
 
-The photo and video gallery appears immediately after the homepage introduction, followed by the 2025/2024 annual-record carousel and a visible 2018–2026 archive timeline. The timeline distinguishes reports, a fundraising update, missing records and the current appeal; it does not claim nine published distribution reports. The 2024 card is explicitly marked as awaiting its report. The team currently presents Sara Daqiq, Shakiba Daqiq and Ahmad Zia Arman.
+The photo and video gallery appears immediately after the homepage introduction, followed by the 2025/2024 annual-record carousel and a visible 2018–2026 archive timeline. The timeline distinguishes completed distribution reports, the 2023 project plan, the 2024 private campaign update and the ongoing 2026 distribution. It does not claim nine completed distribution reports. The 2024 card links to the retrospective yearly update. The introduction now uses a separate text column and an unobstructed photograph, stacking on mobile. The team currently presents Sara Daqiq, Shakiba Daqiq and Ahmad Zia Arman.
 
 
 ## Team biographies

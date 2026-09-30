@@ -1,24 +1,19 @@
 [
   {
     "year": 2026,
-    "title": "2026 Ramadan appeal",
-    "type": "campaign",
-    "label": "Campaign",
-    "description": "Dost’s annual appeal supporting food assistance, medical expenses and education costs for families in Afghanistan.",
+    "title": "Ramadan 2026: distribution in progress",
+    "type": "update",
+    "label": "Distribution in progress",
+    "description": "Funds collected during Ramadan 2026 are now being distributed to people in need.",
     "source": "https://givebutter.com/dost2026",
-    "sourceLabel": "View the campaign",
-    "note": "A separate account of how the 2026 funds were distributed has not yet been added to this archive.",
-    "metrics": [
-      [
-        "March 14",
-        "2026 San Francisco gathering"
-      ]
-    ],
+    "sourceLabel": "View the 2026 fundraising campaign",
+    "note": "Status confirmed by Dost in September 2026. Distribution is ongoing; this update is not a final distribution report.",
     "paragraphs": [
-      "The 2026 Ramadan appeal brought supporters together in San Francisco and online. The community iftar took place on March 14.",
-      "The appeal supports Dost’s work with families in Afghanistan. Local contacts help coordinate food and financial assistance according to household needs.",
-      "Earlier distribution reports describe how previous contributions were used. The latest available distribution report covers 2025 and was published in February 2026."
-    ]
+      "Dost collected donations during Ramadan 2026. Distribution is now in progress, with support being delivered to people in need.",
+      "This entry records the current stage of the 2026 campaign. A final account of the distribution is not yet available.",
+      "The latest completed distribution report in this archive covers 2025. It provides a record of how contributions from that year were used."
+    ],
+    "timelineLabel": "In progress"
   },
   {
     "year": 2025,
@@ -52,57 +47,200 @@
   },
   {
     "year": 2024,
-    "title": "Annual records",
-    "type": "records",
-    "label": "Report to add",
-    "description": "The 2025 report notes that some years were supported through personal fundraising and private donor updates. A separate 2024 report has not been added here.",
-    "note": "No annual total is claimed for this year. This entry is a place for the organization’s records."
+    "title": "Support from friends and family",
+    "type": "update",
+    "label": "Yearly update",
+    "timelineLabel": "Update",
+    "description": "A private campaign brought together direct contributions from friends and family to support people in need.",
+    "paragraphs": [
+      "In 2024, Dost organized a private fundraising campaign within its circle of friends and family. Supporters contributed directly, and the funds were distributed to people in need.",
+      "The campaign was organized internally, without a public fundraising appeal. Because contributions came directly from friends and family, Dost did not publish a public annual report at the time.",
+      "This update has been added to the archive to document that year’s work and explain how the campaign was supported."
+    ],
+    "note": "Retrospective update, added in September 2026 based on the account provided by Dost. No fundraising amount or recipient count is stated in this record."
   },
   {
     "year": 2023,
-    "title": "Annual records",
-    "type": "records",
-    "label": "Report to add",
-    "description": "The 2025 report notes that some years were supported through personal fundraising and private donor updates. A separate 2023 report has not been added here.",
-    "note": "No annual total is claimed for this year. This entry is a place for the organization’s records."
-  },
-  {
-    "year": 2022,
-    "title": "Annual records",
-    "type": "records",
-    "label": "Report to add",
-    "description": "The 2025 report notes that some years were supported through personal fundraising and private donor updates. A separate 2022 report has not been added here.",
-    "note": "No annual total is claimed for this year. This entry is a place for the organization’s records."
-  },
-  {
-    "year": 2021,
-    "title": "Food packages for 60 families: the fundraising plan",
-    "type": "report",
-    "label": "Fundraising update",
-    "description": "A Ramadan appeal outlining a food-package plan for 60 families, coordinated with relatives in Afghanistan.",
-    "source": "https://sadaqiq0.medium.com/eid-gift-2021-7f90825af13f",
-    "sourceLabel": "Read the original update",
-    "published": "May 9, 2021",
+    "title": "Project Food Drive: the 2023 Ramadan appeal",
+    "type": "campaign",
+    "label": "Project brief",
+    "description": "An online appeal for food packages in Shahristan, with a published shopping list, delivery plan and commitment to cover distribution costs separately.",
+    "note": "This page summarizes the 2023 campaign plan. The household target, food quantities and budget are planned figures. A final distribution update has not yet been supplied. Photographs on the campaign page are explicitly labeled as 2022 distributions, so they are not presented as 2023 results.",
+    "timelineLabel": "Project",
+    "source": "https://www.zeffy.com/en-US/fundraising/0fe4cdad-3011-4ddf-8d08-f602f7d797f9",
+    "sourceLabel": "Read the original 2023 project page",
     "metrics": [
       [
-        "60",
-        "Families in the plan"
+        "Shahristan",
+        "Planned distribution area"
       ],
       [
-        "7,600 AFN",
-        "Planned package cost"
+        "100",
+        "Households in the initial target"
       ],
       [
-        "456,000 AFN",
-        "Planned package budget"
+        "$107",
+        "Planned food package"
       ]
     ],
     "paragraphs": [
-      "The 2021 appeal set out a plan to provide food packages for 60 families. At 7,600 Afghan afghanis per package, the planned food budget was 456,000 AFN, described in the source as about $5,930.",
-      "Distribution was to be coordinated by the organizer’s cousin while the family was traveling. The appeal also identified additional delivery and transfer costs.",
-      "The source is a fundraising plan, not a completed distribution reconciliation. The 60-family figure is a target and is not included as a verified outcome."
+      "Project Food Drive’s 2023 online appeal sought contributions to buy staple foods for families in Shahristan, Daikundi. The initial target was 100 households, with an ambition to reach 150 if enough funding became available.",
+      "The published plan listed rice, flour, cooking oil and pasta. It described a package intended to help a family of four with food for about a month, at a planned cost of $107. Any additional contributions after the food distribution were intended for medication.",
+      "The organizer planned to transfer funds to trusted contacts in Afghanistan, who would buy supplies in Kabul and transport them to the village. The project page says labor, transport and transaction fees would be covered personally by the organizer."
     ],
-    "note": "Planned amounts and family counts should not be read as final distributions."
+    "sections": [
+      {
+        "heading": "The published food-package plan",
+        "table": {
+          "headers": [
+            "Item",
+            "Quantity per package",
+            "Planned cost (USD)"
+          ],
+          "rows": [
+            [
+              "Rice",
+              "21 kg",
+              "$31"
+            ],
+            [
+              "Cooking oil",
+              "10 liters",
+              "$15"
+            ],
+            [
+              "Flour",
+              "84 kg",
+              "$50"
+            ],
+            [
+              "Pasta",
+              "14 kg",
+              "$11"
+            ],
+            [
+              "Total",
+              "One household package",
+              "$107"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "How the project was organized",
+        "items": [
+          "Fundraising took place online ahead of Eid.",
+          "Local contacts were to identify households with limited access to food or agricultural income.",
+          "Food was to be purchased in Kabul, transported to the village and distributed on a set date.",
+          "The campaign committed to sharing distribution photographs and updates."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.zeffy.com/en-US/peer-to-peer/e51711dd-f7c3-4919-a5f8-2ee10c3a75fb",
+        "label": "View the parent Operation Food Drive campaign",
+        "note": "The year-specific project page is the source for this plan; the parent page uses a different general description."
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Food assistance for 110 families in Daikundi",
+    "type": "report",
+    "label": "Distribution report",
+    "description": "An April 2022 field update documents food packages for 110 families in Daikundi, Afghanistan.",
+    "note": "Prepared from the dated Facebook record supplied by Dost. The English summary also draws on the accompanying Dari field report. The $6,000 is the reported amount sent; the post does not provide a complete expense reconciliation.",
+    "published": "April 1, 2022",
+    "metrics": [
+      [
+        "110",
+        "Families reported supported"
+      ],
+      [
+        "Daikundi",
+        "Distribution location"
+      ],
+      [
+        "April 1",
+        "2022 field update"
+      ]
+    ],
+    "paragraphs": [
+      "Ahead of Ramadan in 2022, Sara Daqiq collected contributions from friends and family and sent $6,000 to Afghanistan. Her Facebook update, dated April 1, records that the funds had been sent for distribution.",
+      "The field report shared by Zia Arman on the same date describes food assistance for 110 families in Daikundi. It lists flour, rice and cooking oil as the contents of the household packages. The photographs document people gathered with supplies at the distribution site.",
+      "The post describes support for households facing severe financial hardship. Contributions collected abroad were turned into essential food supplies and distributed locally."
+    ],
+    "sections": [
+      {
+        "heading": "What was provided",
+        "items": [
+          "Flour for household meals",
+          "Rice as a staple food",
+          "Cooking oil; the field post notes that the oil was not shown in the photographs"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "src": "assets/records/2022/facebook-record.png",
+        "width": 576,
+        "height": 1110,
+        "title": "Original Facebook record",
+        "alt": "Screenshot of the 2022 Facebook post; the reported details are summarized in the page text.",
+        "caption": "Sara Daqiq and Zia Arman · Facebook updates dated April 1, 2022. Screenshot supplied by Dost."
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Food and basic necessities for 80 families",
+    "type": "report",
+    "label": "Distribution report",
+    "description": "A May 2021 follow-up records completed assistance for 80 families in Daikundi, following the Ramadan appeal.",
+    "source": "https://sadaqiq0.medium.com/eid-gift-2021-7f90825af13f",
+    "sourceLabel": "Read the earlier May 9 fundraising plan",
+    "published": "May 28, 2021",
+    "metrics": [
+      [
+        "80",
+        "Families reported supported"
+      ],
+      [
+        "Daikundi",
+        "Distribution location"
+      ],
+      [
+        "May 28",
+        "2021 completion update"
+      ]
+    ],
+    "paragraphs": [
+      "On May 28, 2021, Sara Daqiq reported that donations had helped provide basic necessities to 80 families. The update was accompanied by photographs of households gathered with food packages.",
+      "The field post shared by Zia Arman on the same date identifies the distribution area as Miramor district in Daikundi province. It describes packages containing flour, rice and cooking oil.",
+      "An earlier appeal, published on May 9, had proposed support for 60 families. The later Facebook update records the completed distribution to 80 families. This report uses the follow-up for the household count and keeps the earlier plan as background."
+    ],
+    "note": "The completed household count comes from the May 28 Facebook update supplied by Dost. The earlier budget was a plan and is not presented as a final account of expenditure.",
+    "sections": [
+      {
+        "heading": "From appeal to distribution",
+        "items": [
+          "May 9: the fundraising appeal set out a plan for 60 families.",
+          "May 28: the organizer reported that 80 families received basic necessities, supported by a field update and photographs."
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "src": "assets/records/2021/facebook-record.png",
+        "width": 574,
+        "height": 846,
+        "title": "Original Facebook record",
+        "alt": "Screenshot of the 2021 Facebook post; the reported details are summarized in the page text.",
+        "caption": "Sara Daqiq and Zia Arman · Facebook updates dated May 28, 2021. Screenshot supplied by Dost."
+      }
+    ],
+    "sourcePublished": "May 9, 2021"
   },
   {
     "year": 2020,
@@ -132,7 +270,14 @@
       "A further $1,805.09 was distributed as cash assistance in Kabul. The report explains that photographs from Kabul could not be obtained during the COVID-19 lockdown.",
       "The care-package account describes 44 households and estimates at least 308 people supported, based on seven people per household. That person count is an estimate, not an individually verified total."
     ],
-    "note": "The two reported distribution amounts total $6,805.09. The estimated people count is not used as a cumulative impact claim."
+    "note": "The two reported distribution amounts total $6,805.09. The estimated people count is not used as a cumulative impact claim.",
+    "sources": [
+      {
+        "url": "https://www.gofundme.com/f/aa42a-eid-gift",
+        "label": "View the original Eid Gift 2020 fundraiser",
+        "note": "Created May 3, 2020. This is the appeal; the Medium report is the later distribution account."
+      }
+    ]
   },
   {
     "year": 2019,
@@ -184,6 +329,24 @@
       "Its closing summary reports $1,300 distributed among eight families. Food packages included staples such as rice, flour, oil, and macaroni, with deliveries coordinated by relatives in Afghanistan.",
       "This is the earliest distribution documented by the public reports currently linked here. It does not establish the organization’s legal incorporation date."
     ],
-    "note": "The work took place in 2018; the report was published in January 2019."
+    "note": "The work took place in 2018; the report was published in January 2019.",
+    "evidence": [
+      {
+        "src": "assets/records/2018/facebook-record.png",
+        "width": 564,
+        "height": 487,
+        "title": "Original Facebook record",
+        "alt": "Screenshot of the 2018 Facebook post; the reported details are summarized in the page text.",
+        "caption": "Sara Daqiq · Facebook appeal dated June 4, 2018. Screenshot supplied by Dost."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The original online appeal",
+        "paragraphs": [
+          "A Facebook post dated June 4, 2018 shared the early GoFundMe appeal, titled “Gift Eidy to four needy families,” and described increasing the goal to include more families. The later distribution account linked below reports assistance for eight families."
+        ]
+      }
+    ]
   }
 ]

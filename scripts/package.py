@@ -4,7 +4,7 @@ import zipfile
 import json
 root=Path(__file__).resolve().parent.parent
 files=list(root.glob('*.html'))+[root/'README.md']+list(root.glob('*.command'))
-for folder in ('assets','content','reports','team','scripts','api','docs'):
+for folder in ('assets','content','reports','programs','team','scripts','api','docs'):
  files.extend(p for p in (root/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.name not in ('desktop.ini','.DS_Store') and not p.is_relative_to(root/'assets/media'))
 manifest=root/'content/media-generated.json'
 if manifest.exists():

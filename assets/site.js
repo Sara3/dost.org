@@ -117,20 +117,6 @@ document.querySelectorAll('[data-gallery]').forEach(gallery=>{
  gallery.querySelectorAll('[data-gallery-peek]').forEach(control=>control.hidden=false);
 });
 
-const form=document.querySelector('.contact-form');
-form?.addEventListener('submit',async event=>{
- event.preventDefault();
- if(!form.reportValidity())return;
- const submit=form.querySelector('[type=submit]'),status=form.querySelector('.form-status');
- submit.disabled=true;submit.textContent='Sending…';status.textContent='';
- try{
-  const response=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-  if(!response.ok)throw new Error('send-failed');
-  status.textContent='Thank you. Your message has been sent to Dost.';form.reset();
- }catch{status.textContent='Your message could not be sent. Your text is still here. Please check your connection and try again, or use the contact option on our Givebutter campaign.';}
- finally{submit.disabled=false;submit.innerHTML='Send message <span class="arrow" aria-hidden="true">↗</span>';}
-});
-
 // Normal profile links remain usable offline and without JavaScript.
 const profileDialog=document.querySelector('[data-profile-dialog]');
 if(profileDialog&&typeof profileDialog.showModal==='function'){

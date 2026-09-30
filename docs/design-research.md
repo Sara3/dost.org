@@ -175,3 +175,37 @@ The importer is local and does not publish automatically. Files are grouped by t
 ## Final homepage order
 
 At the owner’s request, the photo and video gallery now appears directly below the introduction, before the annual reports. The report timeline and carousel remain together immediately afterward, with the reporting-history link retained in the introduction and navigation.
+
+
+## Recovered Facebook records and project pages
+
+| Before | After | Why |
+| --- | --- | --- |
+| Hero text overlapped the instructor in the photograph | Text and the full photograph occupy separate columns, stacking below 700px | Keeps the people and teaching activity visible at every breakpoint. |
+| 2021 described only a 60-family target | The May 28 completion post documents 80 families, with the May 9 appeal retained as background | Uses the later outcome while preserving the planning history. |
+| 2022 was an empty archive entry | A report summarizes the April 1 field record of 110 families and the organizer’s $6,000 transfer | Turns the dated owner-supplied record into a readable report with the screenshot available to inspect. |
+| 2023 had no project context | A project brief presents the dated Zeffy food-drive plan and its $107 shopping list | Documents the work without labeling its 100-household target as a completed distribution. |
+| Education was described only in broad terms | An Afghan Girls Build project page links its original website and Facebook archive | Preserves a documented free web-development program and its 2017 first-session history. |
+
+Primary records were reviewed September 30, 2026. The user supplied unmodified screenshots of Facebook posts dated June 4, 2018; May 28, 2021; and April 1, 2022. The latter two include Zia Arman’s Dari field posts. Their source images are stored in `assets/records/` and included in the report download. No direct Facebook permalinks for these personal posts were supplied.
+
+The supplied GoFundMe URL is explicitly titled “Eid Gift 2020” and was created May 3, 2020. It cannot establish a 2024 distribution. The Zeffy parent campaign links “Project Food Drive - 2023’s Fundraiser”; the specific project page is used for the plan because the generic parent description gives different allocations. Its photos are labeled as 2022 distributions. The supplied Facebook profile is Afghan Girls Build, not the organizer’s personal timeline. Its linked original website records a free HTML/CSS/JavaScript bootcamp, first held in Kabul in winter 2017. A 2024 post or report is still needed.
+
+
+### Confirmed contact address
+
+The owner confirmed `support@dostforgood.org` and an existing catch-all on the domain. The contact page and every footer now expose this address directly. The previous Formspree destination could not be verified, so the form was removed instead of implying confirmed delivery. Contact buttons use `mailto:` and clearly state that they open the visitor’s email app. Privacy information reflects this flow. No mail routing or DNS settings were changed and no test message was sent.
+
+| Before | After | Why |
+| --- | --- | --- |
+| Contact form with an unverified delivery destination | Visible support address and direct email links | Visitors know who receives their inquiry; the site uses the confirmed catch-all address. |
+
+
+### 2024 owner-supplied update
+
+The owner subsequently confirmed that the 2024 campaign was organized privately, friends and family donated directly, and funds were distributed. A retrospective yearly update now documents this account. It explicitly explains why no public annual report was published at the time and does not invent amounts, family counts, dates of distribution or supporting documents. The homepage’s 2024 carousel panel links to this update instead of a pending-record notice.
+
+
+### 2026 distribution status
+
+The owner confirmed that funds were collected during Ramadan 2026 and distribution is in progress. The annual archive and homepage timeline now label 2026 accordingly. This status update does not present distribution as complete or disclose a current fundraising total.

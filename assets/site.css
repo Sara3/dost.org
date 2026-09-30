@@ -266,3 +266,51 @@
 @media(hover:hover) and (pointer:fine){.record-year:hover{background:#dfe6d4;border-color:#95a48a}}
 @media(max-width:760px){.record-history-intro{display:block}.record-history-intro p{margin-top:8px}.record-timeline{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.record-year{flex-direction:row;justify-content:center;gap:9px;padding:10px 7px;min-height:48px}.record-year span{font-size:21px}.record-year small{font-size:9px}.gallery-year-filter{justify-content:flex-start;flex-wrap:wrap;gap:9px}.gallery-thumbnails .gallery-thumb{flex-basis:110px}}
 @media print{.gallery-year-filter{display:none!important}.record-year{break-inside:avoid}.gallery-thumbnails{display:none!important}}
+/* Keep the introduction beside the photograph, with no text covering people. */
+.home-hero{padding:54px 0 64px}
+.hero-stage{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:48px;align-items:center;min-height:0;width:min(1240px,calc(100% - 96px))}
+.hero-statement{position:static;grid-column:1;grid-row:1;width:auto;max-width:none;margin:0;padding:0;background:transparent;border-radius:0;transform:none;box-shadow:none}
+.hero-statement h1{font-size:clamp(38px,4.2vw,62px);line-height:1.08;letter-spacing:-2px}
+.hero-statement>p:not(.eyebrow):not(.hero-registration){max-width:45ch;font-size:15px;margin-top:25px}
+.hero-documentary{position:static;grid-column:2;grid-row:1;width:100%;height:auto;min-height:0;margin:0;border-radius:22px;overflow:hidden;background:#eee6d7}
+.hero-documentary img{width:100%;height:auto;min-height:0;aspect-ratio:auto;object-fit:contain;object-position:center;display:block}
+.hero-documentary figcaption{position:static;inset:auto;padding:12px 16px;background:#eee6d7;color:#596455;font-size:10px;text-shadow:none;max-width:none;border-radius:0}
+@media(max-width:900px){.hero-stage{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}.hero-statement h1{font-size:40px}.hero-statement .actions{gap:18px}.hero-statement>p:not(.eyebrow):not(.hero-registration){font-size:14px}}
+@media(max-width:700px){.home-hero{padding:32px 0 40px}.hero-stage{grid-template-columns:minmax(0,1fr);gap:30px;width:calc(100% - 40px)}.hero-statement{grid-column:1;grid-row:1}.hero-documentary{grid-column:1;grid-row:2;border-radius:18px}.hero-statement h1{font-size:clamp(36px,8.8vw,48px);letter-spacing:-1.4px}.hero-statement .eyebrow{margin-bottom:20px}}
+
+/* Dated project notes and primary records can use different report formats. */
+.record-section{margin-top:36px}
+.record-list{color:#4c5e50;padding-left:21px;font-size:15px;line-height:1.8;margin:18px 0 0}
+.record-list li+li{margin-top:10px}
+.record-table-wrap{overflow-x:auto;margin-top:22px;border:1px solid var(--line);border-radius:12px}
+.record-table{width:100%;border-collapse:collapse;font-size:14px}
+.record-table th,.record-table td{text-align:left;padding:15px 18px;border-bottom:1px solid var(--line);font-weight:400;vertical-align:top}
+.record-table thead{background:var(--mint)}
+.record-table thead th{font-size:11px;font-weight:650;letter-spacing:.3px}
+.record-table tbody tr:last-child{background:#f0eee4}
+.record-table tbody tr:last-child th,.record-table tbody tr:last-child td{border-bottom:0;font-weight:600}
+.record-evidence{margin-top:30px;border:1px solid var(--line);border-radius:12px;background:#f1f0e8;overflow:hidden}
+.record-evidence summary{padding:20px 24px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:space-between;gap:18px;list-style:none}
+.record-evidence summary::-webkit-details-marker{display:none}
+.record-evidence[open] summary{border-bottom:1px solid var(--line)}
+.record-evidence[open] summary span{transform:rotate(45deg)}
+.record-evidence figure{margin:22px}
+.record-evidence img{width:auto;max-width:100%;height:auto;max-height:none;margin:auto;border-radius:8px}
+.record-evidence figcaption{font-size:12px;color:var(--muted);line-height:1.7;margin-top:15px}
+.record-sources{margin-top:35px;padding:26px;background:var(--mint);border-radius:12px}
+.record-sources h2{font-size:25px;letter-spacing:-.5px;margin-bottom:22px}
+.record-sources>div+div{border-top:1px solid #c6cebe;margin-top:18px;padding-top:18px}
+.record-sources .text-link{font-size:13px;line-height:1.6}
+.record-sources p{font-size:12px;line-height:1.7;color:var(--muted);margin-top:9px}
+@media(max-width:700px){.record-table th,.record-table td{padding:12px 10px;font-size:12px}.record-evidence summary{padding:17px}.record-evidence figure{margin:14px}.record-sources{padding:22px}}
+@media print{.record-evidence{display:none}.record-table{break-inside:avoid}.record-sources{background:transparent}}
+
+/* A visible, owner-confirmed inbox keeps every contact route clear. */
+.contact-grid{gap:64px;align-items:start}
+.contact-card{background:var(--mint);border:1px solid var(--line);border-radius:20px;padding:36px}
+.contact-card .eyebrow{margin-bottom:18px}
+.contact-email{display:inline-block;font-size:clamp(20px,2.3vw,28px);font-weight:500;letter-spacing:-.5px;margin-top:24px;overflow-wrap:anywhere}
+.contact-card>p:not(.eyebrow){font-size:14px;line-height:1.8;color:var(--muted);margin-top:18px}
+.contact-card .button{margin-top:26px}
+.contact-card .contact-hint{font-size:12px!important;max-width:42ch}
+@media(max-width:760px){.contact-grid{gap:38px}.contact-card{padding:26px}.contact-email{font-size:22px}}

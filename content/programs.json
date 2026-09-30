@@ -1,0 +1,51 @@
+[
+  {
+    "id": "afghan-girls-build",
+    "title": "Afghan Girls Build",
+    "eyebrow": "Education project · Historical archive",
+    "description": "A free web-development bootcamp created to introduce Afghan girls to programming and help them build their own websites.",
+    "metrics": [
+      [
+        "2017",
+        "First session described in the program history"
+      ],
+      [
+        "Kabul",
+        "First-session location"
+      ],
+      [
+        "Free",
+        "Tuition described by the program"
+      ]
+    ],
+    "paragraphs": [
+      "Afghan Girls Build introduced Afghan girls to web development through a free bootcamp. The original program website records the first session in Kabul in winter 2017.",
+      "The course covered HTML, CSS and JavaScript, with the aim of helping participants create a website by the end. Its published format ranged from two weeks to one month and included programming practice and guest speakers.",
+      "This project record preserves part of the education work shared with Dost’s archive. It describes the documented program, rather than announcing a current course or open enrollment."
+    ],
+    "sections": [
+      {
+        "heading": "Learning by making",
+        "items": [
+          "HTML to structure a web page",
+          "CSS to style a website",
+          "JavaScript to introduce interactive behavior",
+          "A website project to put the lessons into practice"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://advanceweb-1fe40.firebaseapp.com/",
+        "label": "Original Afghan Girls Build website",
+        "note": "Program format, tuition, curriculum and first-session history."
+      },
+      {
+        "url": "https://www.facebook.com/people/Afghan-Girls-Build/100064091859169/",
+        "label": "Afghan Girls Build on Facebook",
+        "note": "Public project page supplied by Dost."
+      }
+    ],
+    "note": "Historical program record compiled from the original website and public Facebook page. Current enrollment and the schedule of any future cohorts have not been confirmed."
+  }
+]
