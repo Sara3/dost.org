@@ -232,3 +232,13 @@ Installation follows the official [widget documentation](https://docs.givebutter
 | The 2023 year tile had a different background | Available year tiles share one background; “Project” still identifies 2023 | Avoids implying a selected state or an unexplained warning through color. |
 
 The original Partiful pages identify the 2026 event as “Iftar Dinner” on Saturday, March 14, and the 2025 event as “Iftar celebration” on Friday, March 14, 2025. Both event links remain in the archive.
+
+### A clearer explanation of how donations are used
+
+| Before | After | Why |
+| --- | --- | --- |
+| A small cropped photograph shared a column with a detached caption | A full-width, uncropped photograph with its caption directly below | Gives the original field image enough space and preserves its context. |
+| Oversized heading beside a long three-step explanation | One shared heading above a balanced photograph and three concise stages | Reduces empty space and lets visitors scan coordination, assistance and reporting together. |
+| Two long report links interrupted the steps | One annual-report link follows the explanation | Provides a clear route to the supporting records. |
+
+The section retains the existing field photograph and owner-supplied coordinator responsibilities. It adds no new allocation percentages, distribution results or scale claims. The mobile layout places the image and caption before the steps; desktop and mobile were inspected in the browser. This is a layout refinement, not a measured donation-conversion result.
