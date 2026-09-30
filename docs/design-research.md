@@ -252,3 +252,12 @@ The section retains the existing field photograph and owner-supplied coordinator
 | Hidden cards remained in the keyboard tab sequence | Only the selected card’s link is a tab stop; year selection, arrows and card keyboard navigation remain available | Keeps keyboard focus on the visible record. |
 
 [NN/g’s carousel guidance](https://www.nngroup.com/articles/designing-effective-carousels/) notes that content beyond the first frame can be overlooked and recommends another route to important information. The full archive remains a prominent link to a conventional list. [W3C’s carousel tutorial](https://www.w3.org/WAI/tutorials/carousels/) calls for keyboard operation, understandable focus and announcements of slide changes. The carousel is manual, with a visible next-card preview, all year choices, arrows, native touch scrolling and reduced-motion support. These sources inform the interaction; no user conversion study has been conducted for Dost.
+
+### Balanced team cards
+
+| Before | After | Why |
+| --- | --- | --- |
+| Portraits and short biographies aligned to the left inside broad desktop cards | Portraits, names, roles and profile links centered within each card | Balances the space around each person and gives all three profiles equal visual weight. |
+| Profile links followed the varying heights of names and roles | Links sit at a common baseline within equal-height cards | Keeps the row aligned when a name or role wraps. |
+
+The section heading remains left-aligned. On phones, the compact portrait-beside-text layout retains left-aligned text for readability.
