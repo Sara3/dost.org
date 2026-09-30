@@ -150,7 +150,7 @@ if(profileDialog&&typeof profileDialog.showModal==='function'){
  });
 }
 
-// A short, manually controlled report carousel, with native touch scrolling.
+// Every annual record is selectable, with native touch scrolling and no autoplay.
 document.querySelectorAll('[data-report-carousel]').forEach(carousel=>{
  const rail=carousel.querySelector('[data-report-rail]');
  const panels=[...rail.querySelectorAll('[data-report-year]')];
@@ -163,6 +163,7 @@ document.querySelectorAll('[data-report-carousel]').forEach(carousel=>{
   const changed=index!==active;
   active=index;
   selectors.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===active)));
+  panels.forEach((panel,i)=>panel.querySelectorAll('a').forEach(link=>link.tabIndex=i===active?0:-1));
   previous.disabled=active===0;next.disabled=active===panels.length-1;
   if(changed)status.textContent=panels[active].getAttribute('aria-label');
  }
@@ -180,6 +181,12 @@ document.querySelectorAll('[data-report-carousel]').forEach(carousel=>{
   event.preventDefault();
   const index=event.key==='Home'?0:event.key==='End'?panels.length-1:Math.max(0,Math.min(panels.length-1,active+(event.key==='ArrowRight'?1:-1)));
   show(index,true);selectors[index].focus();
+ });
+ rail.addEventListener('keydown',event=>{
+  if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
+  event.preventDefault();
+  const index=event.key==='Home'?0:event.key==='End'?panels.length-1:active+(event.key==='ArrowRight'?1:-1);
+  show(index,true);panels[active].querySelector('a').focus({preventScroll:true});
  });
  rail.addEventListener('scroll',()=>{
   if(scrollFrame)return;
@@ -223,4 +230,5 @@ document.querySelectorAll('[data-report-carousel]').forEach(carousel=>{
  rail.addEventListener('dragstart',event=>event.preventDefault());
  rail.addEventListener('click',event=>{if(event.detail>0&&performance.now()<suppressClickUntil){event.preventDefault();event.stopPropagation();}},true);
  carousel.querySelectorAll('[data-report-controls]').forEach(control=>control.hidden=false);
+ update(0);
 });

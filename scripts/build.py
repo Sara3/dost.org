@@ -107,26 +107,20 @@ def team_profiles():
 def row(r,p=''):
  tag_class='tag subtle' if r['type']=='records' else 'tag'
  return f'''<a class="report-row" data-report-type="{r['type']}" href="{p}{r['year']}.html"><span class="year">{r['year']}</span><div><h3>{e(r['title'])}</h3><p>{e(r['description'])}</p></div><span class="{tag_class}">{e(r['label'])}</span>{ARROW}</a>'''
-def report_timeline():
- links=[]
- for record in sorted(REPORTS, key=lambda r:r['year']):
-  status='Report' if record['type']=='report' else 'Appeal' if record['type']=='campaign' else 'To add'
-  if record['label']=='Fundraising update': status='Update'
-  status=record.get('timelineLabel',status)
-  links.append(f'<a class="record-year record-{record["type"]}" href="reports/{record["year"]}.html" aria-label="{record["year"]}: {status}"><span>{record["year"]}</span><small>{status}</small></a>')
- return f'<div class="record-history"><div class="record-history-intro"><p>Explore all {len(REPORTS)} years · Reports, updates and campaign records</p></div><nav class="record-timeline" aria-label="Annual archive by year">'+''.join(links)+'</nav></div>'
-def featured_reports():
- selected=[r for r in REPORTS if r['year'] in (2025,2024)]
+def annual_reports():
  buttons=[]; panels=[]
- for i,r in enumerate(selected):
-  year=r['year']; available=r['type'] in ('report','update')
-  buttons.append(f'<button type="button" data-report-select="{i}" aria-pressed="{str(i==0).lower()}" aria-controls="annual-card-{year}">{year}</button>')
-  date='Published '+r['published'] if r.get('published') else 'PDF available' if r.get('pdf') else 'Retrospective update' if r['type']=='update' else 'Report not yet available'
-  status='Yearly update' if r['type']=='update' else 'Published report' if available else 'Awaiting publication'
-  title=r['title'] if available else f'The {year} annual record.'
-  description=r['description'] if available else 'This report has not yet been added to the public archive. Contact Dost for information about this year’s work.'
-  panels.append(f'<article class="report-panel'+(' report-pending' if not available else '')+f'" data-report-year="{year}" id="annual-card-{year}" role="group" aria-roledescription="slide" aria-label="{i+1} of {len(selected)}: {year}, {status.lower()}"><div class="report-panel-year"><p class="eyebrow">{e(r["label"])}</p><span>{year}</span><p>{e(date)}</p></div><div class="report-panel-copy"><p class="report-status">{status}</p><h3>{e(title)}</h3><p>{e(description)}</p><a class="text-link" href="reports/{year}.html">'+(f'Read the {year} update' if r['type']=='update' else f'Read the {year} report' if available else 'View the record status')+' <span aria-hidden="true">↗</span></a></div></article>')
- return '<div class="report-carousel" data-report-carousel role="region" aria-roledescription="carousel" aria-label="Annual reports and records"><div class="report-toolbar" data-report-controls hidden><div class="report-years" role="group" aria-label="Choose a report year">'+''.join(buttons)+'</div><div class="report-arrows"><button type="button" data-report-prev aria-label="Previous report year" disabled>←</button><button type="button" data-report-next aria-label="Next report year">→</button></div></div><div class="report-rail" data-report-rail>'+''.join(panels)+'</div><p class="sr-only" data-report-announcement role="status" aria-live="polite" aria-atomic="true">2025 report. 1 of 2.</p></div>'
+ for i,r in enumerate(REPORTS):
+  year=r['year']
+  status=r['label']
+  buttons.append(f'<button type="button" data-report-select="{i}" aria-pressed="{str(i==0).lower()}" aria-label="Show {year}: {e(status.lower())}" aria-controls="annual-card-{year}">{year}</button>')
+  date=('Published '+r['published'] if r.get('published') else 'PDF available' if r.get('pdf') else
+        'Ramadan campaign' if r.get('timelineLabel')=='In progress' else
+        'Retrospective account' if r['type']=='update' else
+        'Original campaign record' if r['type']=='campaign' else 'Published distribution record')
+  link=f'Read the {year} '+('report' if r['type']=='report' else 'project brief' if r['type']=='campaign' else 'update')
+  panels.append(f'<article class="report-panel" data-report-year="{year}" id="annual-card-{year}" role="group" aria-roledescription="slide" aria-label="{i+1} of {len(REPORTS)}: {year}, {e(status.lower())}"><div class="report-panel-year"><p class="eyebrow">Dost · Afghanistan</p><span>{year}</span><p>{e(date)}</p></div><div class="report-panel-copy"><p class="report-status">{e(status)}</p><h3>{e(r["title"])}</h3><p>{e(r["description"])}</p><a class="text-link" href="reports/{year}.html">{e(link)} <span aria-hidden="true">↗</span></a></div></article>')
+ first=REPORTS[0]
+ return f'<div class="report-carousel" data-report-carousel role="region" aria-roledescription="carousel" aria-label="Annual reports and records"><div class="report-toolbar"><p>Explore all {len(REPORTS)} years · Reports, updates and campaign records</p><div class="report-arrows" data-report-controls hidden><button type="button" data-report-prev aria-label="Previous report year" disabled>←</button><button type="button" data-report-next aria-label="Next report year">→</button></div></div><div class="report-years" data-report-controls hidden role="group" aria-label="Choose a report year">'+''.join(buttons)+'</div><div class="report-rail" data-report-rail>'+''.join(panels)+f'</div><p class="sr-only" data-report-announcement role="status" aria-live="polite" aria-atomic="true">1 of {len(REPORTS)}: {first["year"]}, {e(first["label"].lower())}</p></div>'
 def gallery():
  slides, thumbs, fallback = [], [], []
  total=len(MEDIA)
@@ -153,8 +147,7 @@ for token, value in {
  '{{DONATE}}':DONATE,
  '{{ARCHIVE_ROWS}}':''.join(row(r,'reports/') for r in REPORTS if r['year'] in (2026,2021,2020,2019,2018)),
  '{{GALLERY}}':gallery(),
- '{{REPORT_TIMELINE}}':report_timeline(),
- '{{FEATURED_REPORTS}}':featured_reports(),
+ '{{ANNUAL_REPORTS}}':annual_reports(),
  '{{ARCHIVE_RANGE}}':ARCHIVE_RANGE,
  '{{TEAM_CARDS}}':team_cards(),
  '{{TEAM_PROFILES}}':team_profiles(),

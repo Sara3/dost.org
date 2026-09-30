@@ -213,10 +213,13 @@
 .records-section{padding-block:60px 48px}
 .records-section .section-head{margin-bottom:25px}
 .report-toolbar{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:20px}
+.report-toolbar>p{font-size:12px;line-height:1.6;color:var(--muted)}
 [data-report-controls][hidden]{display:none}
-.report-years{display:flex;align-items:center;gap:9px}
-.report-years button{min-width:76px;min-height:44px;padding:8px 18px;border:1px solid #cfd6c7;border-radius:24px;color:var(--ink);background:transparent;font-size:13px;font-variant-numeric:tabular-nums}
+.report-years{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:8px;margin-bottom:24px}
+.report-years button{min-width:0;min-height:48px;padding:9px 6px;border:1px solid #cfd6c7;border-radius:9px;color:var(--ink);background:#edf0e5;font:21px/1.2 Georgia,serif;font-variant-numeric:tabular-nums}
 .report-years button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.report-years button:active{transform:scale(.97)}
+@media(hover:hover) and (pointer:fine){.report-years button:not([aria-pressed=true]):hover{background:#dfe6d4;border-color:#95a48a}}
 .report-arrows{display:flex;gap:10px}
 .report-arrows button{width:44px;height:44px;border:1px solid #cbd2c3;border-radius:50%;background:#eeeee5;color:var(--ink);font-size:20px;line-height:1}
 .report-arrows button:disabled{opacity:.35;cursor:default}
@@ -241,8 +244,8 @@
 .report-pending .report-panel-year p,.report-pending .report-panel-copy>p{color:#58654e}
 .records-section+.gallery-section{padding-top:48px;border-top:1px solid var(--line)}
 @media(max-width:1080px){.report-panel{gap:25px;padding:28px;grid-template-columns:.8fr 1.4fr}.report-panel-year{padding-right:22px}.report-panel-copy h3{font-size:26px}.report-panel-year>span{font-size:80px}}
-@media(max-width:760px){.records-section{padding-block:43px 35px}.records-section .section-head{margin-bottom:22px}.report-toolbar{margin-bottom:14px}.report-years button{min-width:69px;padding-inline:14px}.report-rail{gap:16px}.report-panel{flex-basis:90%;grid-template-columns:1fr;gap:23px;padding:25px 23px;min-height:410px}.report-panel-year{border-right:0;border-bottom:1px solid #c7b99a;padding:0 0 20px;min-height:0}.report-panel-year>span{font-size:76px;letter-spacing:-3px;margin:12px 0 6px}.report-panel-copy{justify-content:flex-start}.report-panel-copy h3{font-size:27px;margin-top:11px}.report-panel-copy>p:not(.report-status){font-size:12px;margin-top:13px}.report-panel-copy .text-link{font-size:11px;margin-top:auto;padding-top:14px}.report-panel-copy .report-status{font-size:9px}.report-pending .report-panel-year{border-bottom-color:#c2cbb7}.records-section+.gallery-section{padding-top:38px}.records-section .archive-bottom{margin-top:21px}}
-@media print{.report-toolbar{display:none}.report-rail{display:block;overflow:visible}.report-panel{margin-bottom:20px;break-inside:avoid;box-shadow:none}.team-read{display:none}}
+@media(max-width:760px){.records-section{padding-block:43px 35px}.records-section .section-head{margin-bottom:22px}.report-toolbar{margin-bottom:14px}.report-years{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-bottom:20px}.report-years button{min-width:0;min-height:44px;padding:8px;font-size:19px}.report-toolbar{gap:16px}.report-toolbar>p{font-size:11px;max-width:26ch}.report-arrows{flex-shrink:0}.report-rail{gap:16px}.report-panel{flex-basis:90%;grid-template-columns:1fr;gap:23px;padding:25px 23px;min-height:410px}.report-panel-year{border-right:0;border-bottom:1px solid #c7b99a;padding:0 0 20px;min-height:0}.report-panel-year>span{font-size:76px;letter-spacing:-3px;margin:12px 0 6px}.report-panel-copy{justify-content:flex-start}.report-panel-copy h3{font-size:27px;margin-top:11px}.report-panel-copy>p:not(.report-status){font-size:12px;margin-top:13px}.report-panel-copy .text-link{font-size:11px;margin-top:auto;padding-top:14px}.report-panel-copy .report-status{font-size:9px}.report-pending .report-panel-year{border-bottom-color:#c2cbb7}.records-section+.gallery-section{padding-top:38px}.records-section .archive-bottom{margin-top:21px}}
+@media print{.report-toolbar,.report-years{display:none}.report-rail{display:block;overflow:visible}.report-panel{margin-bottom:20px;break-inside:avoid;box-shadow:none}.team-read{display:none}}
 
 /* A visible route to every year, beside the featured reports. */
 .record-history{margin-bottom:30px}

@@ -242,3 +242,13 @@ The original Partiful pages identify the 2026 event as “Iftar Dinner” on Sat
 | Two long report links interrupted the steps | One annual-report link follows the explanation | Provides a clear route to the supporting records. |
 
 The section retains the existing field photograph and owner-supplied coordinator responsibilities. It adds no new allocation percentages, distribution results or scale claims. The mobile layout places the image and caption before the steps; desktop and mobile were inspected in the browser. This is a layout refinement, not a measured donation-conversion result.
+
+### One report selector for the full history
+
+| Before | After | Why |
+| --- | --- | --- |
+| A nine-year link row followed by separate 2025/2024 buttons | One compact selector controls all nine annual cards | Removes competing controls and lets visitors jump directly to any year. |
+| Only 2025 and 2024 had cards | Every record appears, newest first, with its actual title, description and status | Makes the full history explorable without presenting project plans or ongoing distributions as completed reports. |
+| Hidden cards remained in the keyboard tab sequence | Only the selected card’s link is a tab stop; year selection, arrows and card keyboard navigation remain available | Keeps keyboard focus on the visible record. |
+
+[NN/g’s carousel guidance](https://www.nngroup.com/articles/designing-effective-carousels/) notes that content beyond the first frame can be overlooked and recommends another route to important information. The full archive remains a prominent link to a conventional list. [W3C’s carousel tutorial](https://www.w3.org/WAI/tutorials/carousels/) calls for keyboard operation, understandable focus and announcements of slide changes. The carousel is manual, with a visible next-card preview, all year choices, arrows, native touch scrolling and reduced-motion support. These sources inform the interaction; no user conversion study has been conducted for Dost.
