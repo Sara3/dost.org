@@ -222,3 +222,13 @@ The owner supplied widget `L3xbQ8` and the account-specific Givebutter installat
 | Duplicate widget markup supplied | One centered widget, with a flexible-height container | Avoids duplicate donation forms and lets checkout steps resize naturally. |
 
 Installation follows the official [widget documentation](https://docs.givebutter.com/widgets/getting-started) and [embed guide](https://help.givebutter.com/en/articles/6464859-how-to-use-givebutter-widgets-on-your-website). The campaign must be published before the widget can operate. No donation is submitted during verification.
+
+
+### Event archive and year navigation clarity
+
+| Before | After | Why |
+| --- | --- | --- |
+| Two large event cards repeated “Ramadan gathering” and San Francisco | One gathering archive with distinct 2026 and 2025 rows, using each original event title | Makes the annual history clear without looking like duplicate content. |
+| The 2023 year tile had a different background | Available year tiles share one background; “Project” still identifies 2023 | Avoids implying a selected state or an unexplained warning through color. |
+
+The original Partiful pages identify the 2026 event as “Iftar Dinner” on Saturday, March 14, and the 2025 event as “Iftar celebration” on Friday, March 14, 2025. Both event links remain in the archive.
