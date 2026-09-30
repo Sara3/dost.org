@@ -1,0 +1,7 @@
+Recovered from the original Dost website, Git commit 1be8975.
+
+Sara Daqiq
+Sara Daqiq brings over 15 years of combined teaching and technology experience, including significant contributions to Silicon Valley tech startups. With a proven track record of innovation, she has served in roles such as Software Architect and Senior Software Engineer, leading strategic technical initiatives and reducing operational costs. Currently, she is building a startup focused on leveraging technology to drive impactful solutions. Her expertise spans privacy solutions, API platforms, and curriculum development, further demonstrated through her leadership in organizations like Uber, Okta, and The Harvard Extension School.
+
+Shakiba Daqiq
+Shakiba Daqiq is a dynamic Chief Technology Officer with a strong foundation in technology, education, and global outreach. While studying at Wellesley College and MIT, she taught programming to students in Afghanistan, working closely with field coordinators to distribute funds and organize impactful classes. As the founding engineer of Afghan Girls Build, she established a programming boot camp that expanded access to technical education, empowering students to secure internships and complete impactful projects. She continues to mentor aspiring technologists, fostering innovation and diversity in the global tech industry.

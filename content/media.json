@@ -1,0 +1,62 @@
+[
+  {
+    "type": "photo",
+    "src": "api/content/teaching.jpg",
+    "width": 1334,
+    "height": 890,
+    "title": "Women learning together",
+    "short": "Education",
+    "alt": "An instructor leads a class while women follow along with notebooks and laptops",
+    "caption": "A class with an instructor and participants using notebooks and laptops. From Dost’s teaching archive.",
+    "year": null,
+    "yearNote": "Year not yet confirmed"
+  },
+  {
+    "type": "photo",
+    "src": "api/content/landingSlides/landing3.jpg",
+    "width": 2048,
+    "height": 1150,
+    "title": "Preparing food packages",
+    "short": "Food distribution",
+    "alt": "Rows of food packages laid out in a mountain landscape, with people gathered beside a truck",
+    "caption": "Food packages laid out before distribution in Afghanistan.",
+    "year": null,
+    "yearNote": "Year not yet confirmed"
+  },
+  {
+    "type": "video",
+    "src": "api/AQM4hfijqeiNfIqTWpGoMqimn08yYn2OT5inXlG5g5F2f90twhS_7R8BaLt-6v0EMSmHtqyYxty8cGNWlWDu4skA.mp4",
+    "poster": "assets/distribution-video-poster.jpg",
+    "width": 640,
+    "height": 352,
+    "title": "At a food distribution",
+    "short": "Watch · 47 sec",
+    "caption": "A woman speaks to the camera while people gather for a food distribution. Original audio; recording from the Dost archive.",
+    "year": null,
+    "yearNote": "Year not yet confirmed"
+  },
+  {
+    "type": "photo",
+    "src": "api/content/images/23.jpg",
+    "width": 640,
+    "height": 1352,
+    "title": "Supplies ready to go",
+    "short": "From the courtyard",
+    "alt": "A vertical photograph of bags of food supplies arranged along a courtyard",
+    "caption": "Food supplies arranged in a courtyard. An original phone photograph from the archive.",
+    "year": null,
+    "yearNote": "Year not yet confirmed"
+  },
+  {
+    "type": "photo",
+    "src": "api/content/landingSlides/landing6.jpg",
+    "width": 960,
+    "height": 643,
+    "title": "Food supplies near homes",
+    "short": "In the community",
+    "alt": "Bags of food and supplies laid out near homes in Afghanistan",
+    "caption": "Food supplies prepared for distribution near homes in Afghanistan.",
+    "year": null,
+    "yearNote": "Year not yet confirmed"
+  }
+]

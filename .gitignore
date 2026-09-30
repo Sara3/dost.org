@@ -1,0 +1,7 @@
+__pycache__/
+.DS_Store
+# Local browser review screenshots; downloadable archives remain versioned.
+downloads/*-preview.png
+# Original public-media inbox; optimized outputs are tracked separately.
+media/20*/**
+!media/**/.gitkeep
